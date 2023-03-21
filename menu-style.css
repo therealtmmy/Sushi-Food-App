@@ -55,7 +55,7 @@ font-size: 70px;
 font-weight: 600;
 width: 51px;
 height: 102px;
-color: #F1D5BB;
+color: rgb(241, 213, 187);
 }
 
 .content-img {
@@ -100,6 +100,7 @@ background: black;
     display: flex;
     flex-direction: row;
 
+
 }
 
 .second-first-content {
@@ -107,14 +108,17 @@ background: black;
     border-radius: 24px;
     width: 220px;
     height: 852px;
+    position: sticky;
+    top: 10%;
     margin: 57px 40px 105px 57px;
-    box-sizing: border-box;
     /* box-shadow: 8px 4px rgba(12, 11, 11, 0.2); */
 }
+
 
 .second-main-slide {
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .Sushi-Food {
@@ -123,8 +127,14 @@ background: black;
     flex-wrap: wrap;
     margin-top: 43px;
     margin-bottom: 40px;
-    gap: 50px;
+    gap: 30px;
     text-align: center;
+}
+
+.food {
+    border: 1px solid rgb(241, 213, 187);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .rectangle-div {
