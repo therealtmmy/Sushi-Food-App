@@ -1,3 +1,4 @@
+
 let price = document.getElementById("price");
 
 const subBtn = document.getElementById("sub");
