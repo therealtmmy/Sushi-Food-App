@@ -22,7 +22,7 @@ figcaption {
 img {
     width: 224px;
 height: 275px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 h1 {
@@ -72,6 +72,7 @@ align-items: center;
 justify-content: center;
 cursor: pointer;
 }
+
 
 .content-divv {
     background-color: 
