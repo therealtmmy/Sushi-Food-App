@@ -27,6 +27,19 @@ To run the Sushi Food App locally, follow these steps:
 
 - Frontend: HTML5, CSS3 and Javascript
 
+## API
+
+The Sushi Food App interacts with a RESTful API to fetch and manage data. The following endpoints are available:
+
+GET /api/dishes: Retrieve a list of sushi dishes.
+
+Please refer to the API documentation for more details on request/response formats and required parameters.
+
+## API Documentation
+
+For detailed information about the API endpoints and their usage, refer to the API documentation.
+[Themeald](https://www.themealdb.com/api/json/v1/1/categories.php)
+
 ## Usage
 
 1. Visit the Sushi Food App URL or open it locally on your machine.
